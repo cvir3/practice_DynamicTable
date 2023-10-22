@@ -36,11 +36,11 @@ public class funDemo extends baseClass {
         Assert.assertEquals(originalList, sortedList);
 
         // Scan the name column with getText using filter
-        /*
+
         List<String> price = elementList.stream().filter(s -> s.getText().contains("Beans")).
                 map(s -> getPriceVeggie(s)).collect(Collectors.toList());
         price.forEach(a -> System.out.println(a));
-        */
+        
     }
 
     public void pagination() throws IOException, InterruptedException {
